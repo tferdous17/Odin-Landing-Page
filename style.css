@@ -199,3 +199,13 @@ a {
   border-style: solid;
 }
 /* Section 3 Styling End */
+
+/* Footer Styling Start */
+footer {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+}
+/* Footer Styling End */
