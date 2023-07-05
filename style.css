@@ -98,12 +98,43 @@ a {
 }
 /* Header Styling End */
 
-
-
-
+/* Section 1 Styling Start */
 .section-one {
+  display: flex;
   background-color:aqua;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 275px;
+  padding: 28px;
+  gap: 30px;
 }
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.box {
+  text-align: center;
+  max-width: 145px;
+}
+
+.box div {
+  border-style: solid;
+  border-color: #3882f6;
+  border-radius: 10px;
+  border-width: 2.5px;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 6px;
+}
+
+
+/* Section 1 Styling End */
+
 
 .section-two {
   background-color:cornflowerblue;
