@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-
 * {
   padding: 0;
   margin: 0;
@@ -16,7 +15,7 @@ body {
 /* Header Styling Start */
 .header-container,
 footer {
-  background-color: #1f2937;
+  background-color: #313131;
 }
 
 .header-container {
@@ -54,7 +53,7 @@ a {
 .main-hero-text {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
   max-width: 350px;
 }
 
@@ -72,7 +71,7 @@ a {
 }
 
 .sign-up-button {
-  background-color: #3882f6;
+  background-color: rgb(153, 116, 70);
   border: none;
   width: 108px;
   padding: 6px 12px 6px 12px;
@@ -91,10 +90,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(110, 116, 124);
+  background-color: #484848;
   width: 405px;
   height: 190px;
-  color: #f9faf8;
+  color: #e5e7eb;
   flex-shrink: 0;
 }
 /* Header Styling End */
@@ -126,7 +125,8 @@ a {
 
 .box div {
   border-style: solid;
-  border-color: #3882f6;
+  border-color: rgb(153, 116, 70);
+
   border-radius: 10px;
   border-width: 2.5px;
   width: 140px;
@@ -183,11 +183,11 @@ a {
   justify-content: center;
   align-items: center;
   gap: 200px;
-  background-color: #3882f6;
+  background-color: rgb(153, 116, 70);
   width: 1000px;
   height: 100px;
   border-radius: 6px;
-  color: #e5e7eb;
+  color: #f9faf8;
   padding: 12px 0px;
 }
 
