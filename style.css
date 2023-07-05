@@ -172,6 +172,30 @@ a {
 
 /* Section 3 Styling Start */
 .section-three {
-  background-color: chartreuse;
+  display: flex;
+  height: 275px;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  background-color: #3882f6;
+  width: 1000px;
+  height: 100px;
+  border-radius: 6px;
+  color: #e5e7eb;
+  padding: 12px 0px;
+}
+
+.call-to-action p {
+  font-weight: 300;
+}
+
+.btn2 {
+  border-style: solid;
 }
 /* Section 3 Styling End */
