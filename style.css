@@ -12,8 +12,7 @@ body {
   flex-direction: column;
 }
 
-/* Header Styling */
-
+/* Header Styling Start */
 .header-container,
 footer {
   background-color: #1f2937;
@@ -59,15 +58,15 @@ a {
 }
 
 .main-hero-text h1 {
-  font-size: 38px;
+  font-size: 40px;
   font-weight: 900;
   color: #f9faf8;
 }
 
 .main-hero-text p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: lighter;
-  color: #e5e7eb;
+  color: #bbbbbb;
   width: 400px;
 }
 
@@ -91,11 +90,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: grey;
-  width: 350px;
-  height: 175px;
+  background-color: rgb(110, 116, 124);
+  width: 400px;
+  height: 190px;
+  color: #f9faf8;
+  flex-shrink: 0;
 }
-
+/* Header Styling End */
 
 
 
