@@ -101,12 +101,11 @@ a {
 /* Section 1 Styling Start */
 .section-one {
   display: flex;
-  background-color:aqua;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 275px;
-  padding: 28px;
+  padding: 25px 32px 52px 32px;
   gap: 30px;
 }
 
@@ -120,6 +119,8 @@ a {
 .box {
   text-align: center;
   max-width: 145px;
+  color: rgb(128, 134, 142);
+  font-size: small;
 }
 
 .box div {
