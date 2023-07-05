@@ -135,7 +135,7 @@ a {
 }
 /* Section 1 Styling End */
 
-
+/* Section 2 Styling Start */
 .section-two {
   display: flex;
   height: 275px;
@@ -167,10 +167,11 @@ a {
   margin-right: 0.20em;
   vertical-align: -0.4em;
 }
+/* Section 2 Styling End */
 
 
-
-
+/* Section 3 Styling Start */
 .section-three {
   background-color: chartreuse;
 }
+/* Section 3 Styling End */
