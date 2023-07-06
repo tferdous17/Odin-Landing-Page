@@ -84,12 +84,14 @@ a:hover {
   color: #f9faf8;
   font-weight: 700;
   margin-top: 5px;
+  transition: 175ms;
 }
 
 .sign-up-button:hover {
   background-color: rgb(165, 124, 74);
   cursor: pointer;
   box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.187);
+  transition: 175ms;
 }
 
 .header-logo {
@@ -137,12 +139,20 @@ a:hover {
 .box div {
   border-style: solid;
   border-color: rgb(153, 116, 70);
-
   border-radius: 10px;
   border-width: 2.5px;
   width: 140px;
   height: 140px;
   margin-bottom: 6px;
+  transition: 175ms;
+}
+
+.box div:hover {
+  box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.187);
+  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.187);
+  background-color: rgb(198, 146, 82);
+  transform: translateY(-6px);
+  transition: 175ms;
 }
 /* Section 1 Styling End */
 
